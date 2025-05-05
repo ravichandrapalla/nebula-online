@@ -1,9 +1,12 @@
 import { Button } from "@/components/ui/button";
+import { APP_NAME } from './../../lib/constants/index';
+
+
 
 export default function Home() {
   return (
-    <div>
-      <Button>Click me</Button>
+    <div className="flex">
+      <Button>Root</Button>
     </div>
   );
 }
